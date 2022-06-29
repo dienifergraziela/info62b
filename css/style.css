@@ -1,0 +1,144 @@
+@import url('https://fonts.google.com/share?selection.family=Dancing%20Script');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+ }
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*@media only screen and (max-widht: 768px){}*/
+    body{
+        background-color: #FAFAD2;
+    }
+
+    #titulo{
+        width: 100vw;
+        height: 20vh;
+        display: flex;
+        background-color: #CD853F;;
+        margin-bottom: 0.5vh;
+    }
+    
+    #titulo h1{
+        padding: 6.5vh;
+        margin-left: 25vw;
+        color: #fff;
+    }
+    
+    nav{
+        width: 100vw;
+        background-color: #FAFAD2;
+    }
+    
+    nav li{
+        list-style:none;
+        display: flex; 
+        height: 10vh;
+    }
+    
+    nav li a{
+        width: 100vw;
+        text-decoration: none;
+        color: #CD853F;
+        border-bottom: 0.5vw solid #CD853F;
+        padding: 7.5vw; 
+    }
+
+    nav li a:hover{
+        color: #fff;
+        background-color: #CD853F;
+    }
+
+    /**/
+
+    div h1{
+        margin-left: 16vh;
+        margin-top: 1vh;
+        margin-bottom: 2vh;
+    }
+
+    div img{
+        width: 35vw;
+        height: 25vh;
+        margin-left: 2.5vw;
+        margin-bottom: 1vh;
+        margin-top: 1.5vh;
+    }
+
+    div p{
+        margin-left: 2vw;
+        margin-right: 2vw;
+        text-align: center;
+    }
+
+#Home{
+    background-color: aqua;
+}
+
+.imagem{
+    background-color: #CD853F;
+    margin-bottom: 1vh;
+}
+    
+.fraseCompra{
+    background-color: #CD853F;
+    margin-bottom: 0.5vh;
+    
+}
+
+.produto{
+    width: 40vw;
+    background-color: aqua;
+    margin-left: 6.7vw;
+    float: left;
+}
+
+/*ajeitar tamanho imagens por divs*/
+
+#caixaContato{
+    background-color: aqua;
+}
+
+footer{
+    width: 100vw;
+    height: 60vh;
+    background-color: #CD853F;
+}
+
+footer p{
+    margin-top: 1.5vh;
+}
+
+#imgRodape {
+    background-color: aqua;
+    width: 40vw;
+    margin-left: 3vw;
+    display: inline-block;
+}
+
+#imgRodapePeq{
+    width: 20vw;
+    background-color: aqua;
+    margin-left: 7vw;
+    float: right;
+    margin-right: 5vw;
+    margin-top: 3.5vh;
+    
+}
+
+#imgRodapePeq img{
+    margin-left: 5vw;
+    width: 10vw;
+    height: 5vh;
+}
+
+#imgRodapePeq div img{
+    margin-bottom: 0.5vh;
+    margin-top: 0.5vh;
+}
